@@ -1,4 +1,4 @@
-# Bash: Exercise 4
+# Bash: Exercise 5
 
 Execute consecutive runs of a script.
 
