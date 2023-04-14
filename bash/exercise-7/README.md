@@ -1,4 +1,4 @@
-# Bash: Exercise 6
+# Bash: Exercise 7
 
 Your own "locate" command.
 
