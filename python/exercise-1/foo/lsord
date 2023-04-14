@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+
+#Call "os" for list directories and files
+
+import os
+
+#List directories & files 
+dir_list = os.listdir()
+
+#alphabetical orde
+dir_list.sort()
+
+#Loop for each directory
+for file in dir_list:
+    print(file)
+
+
