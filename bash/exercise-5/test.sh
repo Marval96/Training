@@ -18,9 +18,9 @@ function run_my_sleep() {
 
     end=$(date +%T)
 
-    echo "Ejecución $execution_count: $start - $end" > run_$execution_count.log
+    echo "Ejecución $execution_count: $start - $end" 
+    ((execution_count++)) >> run_$execution_count.log
 
-    ((execution_count++))
 }
 
 #Loop fpr "my_sleep.sh" 
